@@ -7,7 +7,6 @@ const port = process.env.PORT || 3000;
 app.listen(port, () => console.log(`listening at ${port}`));
 app.use(express.static("public"));
 app.use(express.json({ limit: "1mb" }));
-
 const database = new Datastore("database.db");
 database.loadDatabase();
 
