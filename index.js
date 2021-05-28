@@ -9,7 +9,6 @@ app.use(express.static("public"));
 app.use(express.json({ limit: "1mb" }));
 const database = new Datastore("database.db");
 database.loadDatabase();
-
 app.get("/api", (request, response) => {
   database.find({}, (err, data) => {
     if (err) {
