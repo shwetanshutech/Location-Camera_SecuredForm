@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="./css/app.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.dom.min.js"></script>
+</head>
+
+<body>
+    <div id="particles-js">
+        <nav>
+            <a class="logo" href="index.html">Home</a>
+        </nav>
+        <div class="container">
+            <div class="child1">
+                <form action="team.html" onSubmit="alert('Thank your for filling the form')" autocomplete="off"
+                    autocapitalize="on">
+                    <input id="name" type="text" placeholder="Full Name" required>
+                    <input id="email" type="email" placeholder="Email address" required>
+                    <input id="username" type="text" placeholder="Unique UserName" required>
+                    <input type="password" placeholder="Password" required>
+                    </br>
+                    <div class="checkbox">
+                        <input type="checkbox" required>
+                        <p class="terms">I accepts the terms and conditions</p>
+                    </div>
+                    </br>
+                    <button id="submit">Submit</button>
+                </form>
+
+            </div>
+            <div class="child2">
+                <p>
+                    Latitude:&nbsp<span id="latitude"></span>&deg;
+                </p>
+                <p>
+                    Longitude:&nbsp<span id="longitude"></span>&deg;
+                </p>
+                <p> Location: </br><span id="location value"></span><img src="images/iss200.png" /> </p>
+
+            </div>
+
+
+
+        </div>
+    </div>
+    <script src="./js/sketch.js"></script>
+    <script src="./js/particles.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
