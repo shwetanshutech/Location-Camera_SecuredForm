@@ -8,7 +8,8 @@
 .logo {
   position: fixed;
   float: left;
-  left: 0;
+  left: 15%;
+  top: 0;
   margin: 16px 36px;
   color: white;
   font-weight: bold;
@@ -22,12 +23,14 @@ nav {
   position: fixed;
   width: 100%;
   display: flex;
+  top: 0;
+  left: 60%;
   flex-direction: row;
   justify-content: space-between;
   z-index: 100;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: flex-between;
 }
 
 nav ul {
