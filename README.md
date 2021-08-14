@@ -6,8 +6,7 @@ Checkout the app at [LIVE LINK](https://smartsurveyform.herokuapp.com/)
 
 ## PREVIEW
 
-[APP PREVIEW](./demo.png)
+(APP PREVIEW)(./demo.png)
 
 In Local PC go to- </br>
-
 > create env file>API="PUT YOUR API KEY"
