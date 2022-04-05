@@ -10,3 +10,7 @@ Checkout the app at [LIVE LINK](https://smartsurveyform.herokuapp.com/)
 
 To Run on Local PC go to- </br>
 > create env file>API="PUT YOUR API KEY"
+
+### Flow of Project
+
+![Flow Diagram](./flow.jpg)
